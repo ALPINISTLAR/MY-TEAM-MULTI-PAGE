@@ -109,6 +109,10 @@ select:-webkit-autofill:focus {
   color: var(--sacramento-state-green);
   border: 2px solid var(--sacramento-state-green);
 }
+.btn-black:hover{
+  color: var(--white);
+  background-color: var(--sacramento-state-green);
+}
 /* LOGO */
 .logo {
   color: var(--white);
@@ -384,4 +388,37 @@ select:-webkit-autofill:focus {
   height: 62px;
   border-radius: 62px;
   border: 2px solid #C4FFFE;
+}
+
+/* CTA SECTION  */
+.cta {
+  padding-top: 76px;
+  padding-bottom: 76px;
+  background-color: var(--light-coral);
+}
+.cta__container {
+  position: relative;
+}
+.cta__container::before{
+  display: flex;
+  position: absolute;
+  top: -20px;
+  left: -145px;
+  width: 200px;
+  height: 244px;
+  background-image: url(../img/cta-bg.svg);
+  content: "";
+  z-index: 1;
+}
+.cta__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cta__title {
+  color: var(--sacramento-state-green);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  padding-left: 98px;
 }
