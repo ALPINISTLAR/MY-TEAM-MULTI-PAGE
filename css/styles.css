@@ -72,15 +72,17 @@ select:-webkit-autofill:focus {
 }
 
 /* *** CONTAINER *** */
-.container
-{
+.container{
+  max-width: 1150px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
+
 /* ** MAIN CONTENT ** */
-.main-content
-{
+.main-content{
   flex-grow: 1;
 }
